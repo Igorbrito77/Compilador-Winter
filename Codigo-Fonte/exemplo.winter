@@ -1,0 +1,9 @@
+static function Main(){
+	
+	int resultado;
+	int num = 9;
+
+	resultado = factorial(num);
+
+	print(resultado);
+}
