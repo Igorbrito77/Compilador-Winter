@@ -1,0 +1,22 @@
+static function Main(){
+	
+	int i;
+	int j;
+	int k;
+
+	for(i =0; i < 10; i++){
+
+		for(j = 0; j < 10; j++){
+
+			for(k = 0; k < 10; k++){
+				
+				if(k == 5){
+					print("Posicoes | i =  ", i, "| j = ",j, "| k = ", k);
+					break_all;
+				}
+			}
+		}
+
+	}
+
+}

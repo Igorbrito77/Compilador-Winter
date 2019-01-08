@@ -1,0 +1,23 @@
+static function Main(){
+	
+	string a = "oi";
+	string b = a + "casa";
+
+	a = input();
+
+	int c[4] = {10,2,3,4};
+
+	c[2] = 20;
+
+	int i;
+
+	for(i:c)
+	{
+		i++;
+	}
+
+	i = c[3];
+
+	float d[2][2] = {2.2,3.4,4.5,2.1};
+
+}

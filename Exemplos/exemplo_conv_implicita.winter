@@ -1,0 +1,6 @@
+static function Main(){
+	
+	int resultado = 10 + 1.0;
+
+	print(resultado);
+}

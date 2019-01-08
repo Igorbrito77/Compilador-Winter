@@ -1,0 +1,6 @@
+static function Main(){	
+
+	string a = "oi";
+	string b = a + "casa";
+
+}

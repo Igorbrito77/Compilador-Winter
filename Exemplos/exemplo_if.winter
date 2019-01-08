@@ -1,0 +1,16 @@
+static function Main(){
+	
+	int a;
+	int num = 2;
+
+	if(num == 2){
+	 a = 20;
+	}
+
+	else{
+		
+		int a = 20;
+	}
+
+
+}

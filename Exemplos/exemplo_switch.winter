@@ -1,0 +1,23 @@
+static function Main(){
+	
+	int escolha = 5;
+
+
+	switch(escolha){
+
+		case 2 : 
+			print("Sua escolha == 2");
+			break;
+		case 3:
+			print("Sua escolha == 3");
+			break;
+		case 4:
+			print("Sua escolha == 4");
+			break;
+
+		default:
+			print("Sua foi diferente de tudo!");
+
+	}
+
+}

@@ -1,0 +1,36 @@
+ function imprime_msg() : void
+{
+	print("Ufrrj - Ciência da Computação.\nAvaliações.");
+}
+
+function calcula_media(float nota_p1, float nota_p2) : float 
+{
+	float media =  nota_p1+ nota_p2;
+	media /= 2;
+	return media;
+}
+
+function imprime_resultado(float media): void
+{
+	if(media >= 5){
+		print("Média = ", media, " . Aprovado!");
+	}
+	else{
+		print("Média = ", media, ". Reprovado!");
+	}
+
+}
+
+static function Main(){
+	
+	imprime_msg();
+	
+	float nota_p1 = input("Insira a nota da P1:");
+	float nota_p2 = input("Insira a nota da P2:");
+
+
+	float media = calcula_media(nota_p1, nota_p2);
+	
+	imprime_resultado(media); 
+
+}

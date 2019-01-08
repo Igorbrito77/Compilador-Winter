@@ -1,0 +1,11 @@
+function fatora(int num) : int
+{
+	return factorial (num);
+}
+
+static function Main(){
+	
+	int num = input("Insira um inteiro");
+	print("Fatorial  de ", num, " = " ,fatora(num));
+
+}

@@ -1,0 +1,14 @@
+function soma (int a, int b) : int
+{
+	return a + b;
+}
+
+static function Main(){
+	
+	
+	int a  = 5;
+	int b = 10;
+
+	int soma = soma(a,b);
+
+}

@@ -1,0 +1,10 @@
+static function Main(){
+	
+	int resultado;
+	int num = 9;
+	int expoente = 3;
+
+	resultado = pow(num, expoente);
+
+	print(resultado);
+}
